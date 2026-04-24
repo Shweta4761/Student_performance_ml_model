@@ -1,0 +1,50 @@
+{
+  "study_hours_weekly": {
+    "mean": 16.46,
+    "std": 5.95,
+    "min": 1.0,
+    "max": 36.6,
+    "top_performer_mean": 19.86,
+    "median": 16.7
+  },
+  "attendance_pct": {
+    "mean": 63.09,
+    "std": 15.32,
+    "min": 30.0,
+    "max": 100.0,
+    "top_performer_mean": 75.25,
+    "median": 63.4
+  },
+  "previous_cgpa": {
+    "mean": 5.38,
+    "std": 2.27,
+    "min": 0.0,
+    "max": 10.0,
+    "top_performer_mean": 6.32,
+    "median": 5.81
+  },
+  "sleep_hours": {
+    "mean": 6.8,
+    "std": 1.06,
+    "min": 4.0,
+    "max": 10.0,
+    "top_performer_mean": 6.87,
+    "median": 6.8
+  },
+  "mental_health_score": {
+    "mean": 7.13,
+    "std": 1.53,
+    "min": 2.2,
+    "max": 10.0,
+    "top_performer_mean": 7.24,
+    "median": 7.1
+  },
+  "semester": {
+    "mean": 4.84,
+    "std": 2.23,
+    "min": 1.0,
+    "max": 8.0,
+    "top_performer_mean": 4.77,
+    "median": 5.0
+  }
+}

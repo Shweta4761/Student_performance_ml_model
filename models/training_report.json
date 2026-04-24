@@ -1,0 +1,61 @@
+{
+  "dataset_size": 5000,
+  "train_size": 4000,
+  "test_size": 1000,
+  "features_used": [
+    "study_hours_weekly",
+    "attendance_pct",
+    "previous_cgpa",
+    "sleep_hours",
+    "mental_health_score",
+    "has_part_time_job",
+    "extracurricular",
+    "department",
+    "semester"
+  ],
+  "numerical_features": [
+    "study_hours_weekly",
+    "attendance_pct",
+    "previous_cgpa",
+    "sleep_hours",
+    "mental_health_score",
+    "semester"
+  ],
+  "categorical_features": [
+    "has_part_time_job",
+    "extracurricular",
+    "department"
+  ],
+  "score_model": {
+    "model": "RandomForestRegressor",
+    "r2": 0.7669,
+    "mae": 5.66,
+    "rmse": 7.06,
+    "cv_r2_mean": 0.7561,
+    "cv_r2_std": 0.0145
+  },
+  "grade_model": {
+    "model": "RandomForestClassifier",
+    "accuracy": 0.495,
+    "f1_weighted": 0.4936,
+    "cv_accuracy_mean": 0.5062,
+    "cv_accuracy_std": 0.0133
+  },
+  "risk_model": {
+    "model": "RandomForestClassifier (balanced)",
+    "accuracy": 0.92,
+    "f1_binary": 0.7368,
+    "cv_f1_mean": 0.7285,
+    "cv_f1_std": 0.0257,
+    "confusion_matrix": [
+      [
+        808,
+        52
+      ],
+      [
+        28,
+        112
+      ]
+    ]
+  }
+}
